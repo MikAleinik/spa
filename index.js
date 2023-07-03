@@ -1430,35 +1430,35 @@ class App {
     createRoutes(state) {
         return [
             {
-                path: `https://mikaleinik.github.io/spa/`,
+                path: `/spa/`,
                 callback: () => {
                     // const { default: IndexView } = await import('./view/main/index/index-view');
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.INDEX, new _view_main_index_index_view__WEBPACK_IMPORTED_MODULE_7__["default"](state));
                 },
             },
             {
-                path: `https://mikaleinik.github.io/spa/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.INDEX}`,
+                path: `/spa/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.INDEX}`,
                 callback: () => {
                     // const { default: IndexView } = await import('./view/main/index/index-view');
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.INDEX, new _view_main_index_index_view__WEBPACK_IMPORTED_MODULE_7__["default"](state));
                 },
             },
             {
-                path: `https://mikaleinik.github.io/spa/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT}`,
+                path: `/spa/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT}`,
                 callback: () => {
                     // const { default: ProductView } = await import('./view/main/product/product-view');
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT, new _view_main_product_product_view__WEBPACK_IMPORTED_MODULE_9__["default"](this.router));
                 },
             },
             {
-                path: `https://mikaleinik.github.io/spa/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT}/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.ID_SELECTOR}`,
+                path: `/spa/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT}/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.ID_SELECTOR}`,
                 callback: (id) => {
                     // const { default: ProductView } = await import('./view/main/product/product-view');
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT, new _view_main_product_product_view__WEBPACK_IMPORTED_MODULE_9__["default"](this.router, id));
                 },
             },
             {
-                path: `https://mikaleinik.github.io/spa/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.NOT_FOUND}`,
+                path: `/spa/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.NOT_FOUND}`,
                 callback: () => {
                     // const { default: NotFoundView } = await import('./view/main/not-found/not-found-view');
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.NOT_FOUND, new _view_main_not_found_not_found_view__WEBPACK_IMPORTED_MODULE_8__["default"]());
