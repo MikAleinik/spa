@@ -878,35 +878,35 @@ class App {
             {
                 path: ``,
                 callback: async () => {
-                    const { default: IndexView } = await __webpack_require__.e(/*! import() */ "src_spa_view_main_index_index-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/index/index-view */ "./src/spa/view/main/index/index-view.js"));
+                    const { default: IndexView } = await __webpack_require__.e(/*! import() */ "spa/src_spa_view_main_index_index-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/index/index-view */ "./src/spa/view/main/index/index-view.js"));
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.INDEX, new IndexView(state));
                 },
             },
             {
                 path: `${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.INDEX}`,
                 callback: async () => {
-                    const { default: IndexView } = await __webpack_require__.e(/*! import() */ "src_spa_view_main_index_index-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/index/index-view */ "./src/spa/view/main/index/index-view.js"));
+                    const { default: IndexView } = await __webpack_require__.e(/*! import() */ "spa/src_spa_view_main_index_index-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/index/index-view */ "./src/spa/view/main/index/index-view.js"));
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.INDEX, new IndexView(state));
                 },
             },
             {
                 path: `${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT}`,
                 callback: async () => {
-                    const { default: ProductView } = await __webpack_require__.e(/*! import() */ "src_spa_view_main_product_product-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/product/product-view */ "./src/spa/view/main/product/product-view.js"));
+                    const { default: ProductView } = await __webpack_require__.e(/*! import() */ "spa/src_spa_view_main_product_product-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/product/product-view */ "./src/spa/view/main/product/product-view.js"));
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT, new ProductView(this.router));
                 },
             },
             {
                 path: `${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT}/${_router_pages__WEBPACK_IMPORTED_MODULE_2__.ID_SELECTOR}`,
                 callback: async (id) => {
-                    const { default: ProductView } = await __webpack_require__.e(/*! import() */ "src_spa_view_main_product_product-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/product/product-view */ "./src/spa/view/main/product/product-view.js"));
+                    const { default: ProductView } = await __webpack_require__.e(/*! import() */ "spa/src_spa_view_main_product_product-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/product/product-view */ "./src/spa/view/main/product/product-view.js"));
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.PRODUCT, new ProductView(this.router, id));
                 },
             },
             {
                 path: `${_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.NOT_FOUND}`,
                 callback: async () => {
-                    const { default: NotFoundView } = await __webpack_require__.e(/*! import() */ "src_spa_view_main_not-found_not-found-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/not-found/not-found-view */ "./src/spa/view/main/not-found/not-found-view.js"));
+                    const { default: NotFoundView } = await __webpack_require__.e(/*! import() */ "spa/src_spa_view_main_not-found_not-found-view_js").then(__webpack_require__.bind(__webpack_require__, /*! ./view/main/not-found/not-found-view */ "./src/spa/view/main/not-found/not-found-view.js"));
                     this.setContent(_router_pages__WEBPACK_IMPORTED_MODULE_2__.Pages.NOT_FOUND, new NotFoundView());
                 },
             },
